@@ -21,7 +21,7 @@ const Counter = () => {
     }
 
     return (
-        <div style={{background: '#717171', padding: 20, borderRadius: 18}}>
+        <div style={{background: '#717171', padding: 50, borderRadius: 18}}>
             <h1>Counter: {count}</h1>
             <p>you clicked {freq} times!</p>
             <button style={{padding: 5}} onClick={increment}>Increment</button>

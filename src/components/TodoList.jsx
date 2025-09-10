@@ -14,7 +14,7 @@ const TodoList = () => {
     }
 
     return (
-        <div style={{background:'teal', padding: 20, borderRadius:18}}>
+        <div style={{background:'teal', padding: 50, borderRadius:18}}>
             <h1>To Do List</h1>
             <p>Tasks: {arr.length}</p>
             

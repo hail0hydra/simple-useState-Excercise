@@ -19,11 +19,13 @@ const ShoppingList = () => {
         <div style={{background: 'crimson', padding: 20, borderRadius: 18}}>
             <h1>Shopping List</h1>
             <p>current items: {list.length}</p>
-            {
-                list.map((item)=>(
-                     <li key={Math.random()}>Name: {item.name}<br/>Quantity: {item.quantity}<br/><br/></li>
-                ))
-            }
+            <ul>
+                {
+                    list.map((item)=>(
+                        <li key={Math.random()}>Name: {item.name}<br/>Quantity: {item.quantity}<br/><br/></li>
+                    ))
+                }
+            </ul>
 
             <form onSubmit={handleSubmit}>
                 <label>Item Name:
@@ -36,7 +38,7 @@ const ShoppingList = () => {
                 <br/>
                 <br/>
                 <div style={{marginLeft: '7em'}}>
-                <button type="submit">Add to List</button>
+                    <button type="submit">Add to List</button>
                 </div>
             </form>
         </div>

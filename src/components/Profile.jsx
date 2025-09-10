@@ -18,6 +18,8 @@ const Profile = () => {
 
     return (
         <div style={{background: '#FFDE21 ', color:'#000', padding:20, borderRadius:18}}>
+            <h1>Profile</h1>
+            <br/>
             <p>Name: {profile.name}</p>
             <p>Age: {profile.age}</p>
 

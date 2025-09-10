@@ -35,10 +35,12 @@
 <br>
 
 ```bash
+bun install
 bun dev
 
 # OR
 
+npm install
 npm run dev
 ```
 

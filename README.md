@@ -5,7 +5,7 @@
 
 ## What is this?
 
-- this repository contains 4 components I build to better understand `useState()` react hook.
+- this repository contains 4 components I built to better understand `useState()` react hook.
 
 - I haven't touched `useEffect()` hook and I also haven't used `localStorage`. So everything wipes out when you refresh :)
 
